@@ -1,0 +1,51 @@
+html, body {
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	margin-top: 3px;
+}
+#navigation{
+	border-bottom: 3px double black;
+	padding-bottom: 20px;
+}
+ul li{
+	float: right;
+	margin-right: 100px;
+	list-style: none;
+	padding-top: 25px;
+	font-size: 16px;
+	font-weight: bolder;
+	
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+.sub{
+	position: relative;
+	background-image:radial-gradient(circle, rgba(0, 0, 0, 0.420)20%, rgba(0, 0, 0, 0.368) 81%),url('images/keys.jpg');
+	background-size: cover;
+	filter: rgba(0);
+	display: block;
+	margin: 0 auto;
+	height: 370px;
+	width: 95%;
+	border-radius: 10px;
+}
+.subtext{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size:22px;
+	color: #efefef;
+	text-align: center;
+	font-family: cursive;
+	width: 100%;
+}
+a:hover, a.on {
+	background-color: white;
+	
+}
