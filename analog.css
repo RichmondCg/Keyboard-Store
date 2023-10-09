@@ -29,7 +29,7 @@ a{
 	background-size: cover;
 	filter: rgba(0);
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 	height: 370px;
 	width: 95%;
 	border-radius: 10px;
@@ -48,4 +48,36 @@ a{
 a:hover, a.on {
 	background-color: white;
 	
+}
+.content{
+	display: flex;
+	width: 99%;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+.scontent{
+	position: relative;
+	background-color: rgb(41, 39, 39);
+	width: 25%;
+	height: 700px;
+	padding: 30px;
+	flex-direction: column;
+}
+.scontent img{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+.scontent p{
+	font-size: 16px;
+	color: white;
+}
+.scontent p button{
+position: absolute;
+  right: 30px;
+  bottom: 40px;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(192, 16, 16);
 }
